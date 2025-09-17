@@ -1,0 +1,238 @@
+#write a python program to check the age group given by the user
+age=int(input("enter your age"))
+if(age<13):
+    print("child")
+elif(age<=19):
+    print("teenage")
+else:
+    print("adult")
+****************************************************************
+#write a python program to check the grade using marks 
+marks=int(input("enter the marks"))
+if (marks>=90):
+    print("grade A")
+    print("excellent")
+elif(marks>70 and marks<=80):
+    print("grade B")
+    print("good")
+elif(marks>50 and marks<=70):
+    print("grade C")
+    print("average")
+elif(marks>40 and marks<=50):
+    print("grade D")
+    print("better improvememt")
+else:
+*******************************************************
+##write a python programto check week of the day
+week=int(input("enter the week number"))
+if week==1:
+    print("sunday")
+elif week==2:
+    print("monday")
+elif week==3:
+    print("tuesday")
+elif week==4:
+    print("wednesday")
+elif week==5:
+    print("thursday")
+elif week==6:
+    print("friday")
+elif week==7:
+    print("saturday")
+else:
+    print(*"invalid")
+*********************************************************************
+#write a python programto check username and password
+user="chinnu"
+pws="4321"
+username=input("enter your username")
+if username!=user:
+    print("invalid username")
+username=input("enter your username:")
+if username==user:
+    print("correct username")
+password=int(input("enter the password"))
+if (username==user and password==pws):
+    print("login  successful")
+else:
+    print("enter valid password")
+password=int(input("enter the password:"))
+if (username==user and password==pws):
+    print("login  successful")
+else:
+    print("password is correct")
+************************************************************************
+#write a python program to develop a simple caluclator
+n = int(input("Enter the first number: "))
+s = int(input("Enter the second number: "))
+print("1. Addition")
+print("2. Subtraction")
+print("3. Multiplication")
+print("4. Division")
+choice = int(input("Enter your choice: "))
+if choice == 1:
+    print("Result:", n + s)
+elif choice == 2:
+    print("Result:", n - s)
+elif choice == 3:
+    print("Result:", n * s)
+elif choice == 4:
+    if s != 0:   
+        print("Result:", n / s)   
+    else:
+        print("Error: Division by zero not allowed")
+else:
+    print("Invalid operator")
+
+#write a python program to check months days
+month = int(input("Enter the month 1-12: "))
+*******************************************************
+if month == 2:
+    print("28 or 29 days")
+elif month in (1, 3, 5, 7, 8, 10, 12):
+    print("31 days")
+elif month in (4, 6, 9, 11):
+    print("30 days")
+else:
+    print("Not exist")
+*************************************************************
+#write a python program to check body temperature
+temp=int (input("enter the value"))
+if temp<37:
+    print("normal")
+elif temp<=37:
+    print("cold")
+else:
+    print("fever")
+******************************************************************
+#write a python program to check the value +ve,-ve and 0
+n=int(input("enter the number"))
+if n>0:
+    print("positive")
+elif n-0:
+    print("zero")
+else:
+    print("positive")
+**********************************************************************
+#write a python program to check the person is eligible to vote
+n=int(input("enter the age"))
+if n>18:
+    print("person is eligible")
+else:
+    print("not eligible")
+
+***********************************************
+print("janakiram")
+print(str(input("enter the name")))
+**********************************************************
+name=input("enter the name")
+print(name)
+****************************************************
+a=input("enter the first name")
+b=input("enter the second name")
+print("first name:",a)
+print("second name:",b)
+***************************************************
+a=int(input("enter your first number"))
+b=int(input("enter your second number"))
+print(a+b)
+sum=a+b
+print(sum)
+******************************************************
+first_name=input("enter your first name")
+second_name=input("enter your second name")
+full_name=first_name+second_name
+print(full_name)
+****************************************************
+a=int(input("enter your first number"))
+b=int(input("enter your second number"))
+a=a+b
+b=a-b
+a=a-b
+print("a:",a)
+print("b:",b)
+****************************
+a=10
+b=20
+temp=a
+a=b
+b=temp
+print("a:",a)
+print("b:",b)
+***************************************
+a=10
+b=10.23
+c=False
+print("int:",a)
+print("float:",b)
+print("bool:",c)
+*********************************************
+set={10,20,30,30,40}
+tuple=(10,20,30,40,50)
+list=[10,20,30,40]
+dict={"a":10,"b":20}
+print(set,tuple,list,dict)
+*****************************************************
+a=int(input("enter the number"))
+sqr=a*a
+print(sqr)
+******************************************************
+a=int(input("enter your first number"))
+b=int(input("enter your second number"))
+c=int(input("enetr your third number"))
+sum=a+b+c
+average=sum//3
+print(average)
+*******************************************************
+a=float(input("enter your number:"))
+mul=a*10
+print(mul)
+**************************************************
+min=float(input("enter no of mins"))
+sec=min*60
+print(sec)
+************************************************
+a=float(input("enter your first number"))
+b=float(input("enter your second number"))
+c=a*b
+print(c)
+****************************************************
+a=float(input("enter your first number"))
+b=float(input("enter your second number"))
+c=float(input("enetr your third number"))
+d=max(a,b,c)
+print("max number:",d)
+***********************************************
+n=int(input("enter n value:"))
+c=n+1
+sum=n*c
+print(sum)
+******************************************
+n=int(input("enter n value:"))
+c=n+1
+sum=n**2
+print(sum)
+****************************************
+n=int(input("enter n value:"))
+c=n+1
+d=n*c
+sum=d//2
+print(sum)
+*********************************************
+a=float(input("enter a number"))
+if (a>0):
+    print("postive number")
+elif(a<0):
+    print("negative number")
+else:
+    print("zero")
+*************************************************
+a=int(input("enter the number:"))
+if (a%2==0):
+    print("even")
+else:
+    print("odd")
+*****************************************
+a=int(input("enter the number:"))
+if(a%5==0 and a%11==0):
+    print("divisible by 11 and 5")
