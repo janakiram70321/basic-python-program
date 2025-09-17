@@ -1,0 +1,7 @@
+temp=int (input("enter the value"))
+if temp<37:
+    print("normal")
+elif temp<=37:
+    print("cold")
+else:
+    print("fever")
