@@ -1,0 +1,2 @@
+print("janakiram")
+print(str(input("enter the name")))
